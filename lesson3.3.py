@@ -1,8 +1,7 @@
-lst = list(input("list"))
-l = len(lst)
+lst = [1,2,3]
+l_lst = len(lst)
 
-if (l % 2) == 0:
-    print(lst[:(l // 2)], lst[(l // 2):])
+if (l_lst % 2) == 0:
+    print(lst[:(l_lst // 2)], lst[(l_lst // 2):])
 else:
-    print(lst[:(l // 2+1)], lst[(l // 2+1):])
-
+    print(lst[:(l_lst // 2 + 1)], lst[(l_lst // 2 + 1):])
